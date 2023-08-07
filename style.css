@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --letra1: Verdana, Geneva, Tahoma, sans-serif;
+    --letra2: 'Passion One', cursive;
+    --letra3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkgrey;
+    min-height: 100vh;
+    font-family: var(--letra1);
+}
+
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    
+}
+
+header h1{
+    font-family:var(--letra2) ;
+    padding-top: 50px;
+    font-size: 10vw ;
+    font-variant: small-caps;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+header p{
+    font-size:1em;
+    padding-bottom: 50px;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main{
+    background-color: white;
+    height: 100vh;
+}
+
+main p{ 
+    font-size: ;
+}

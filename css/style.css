@@ -1,4 +1,6 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 
 :root{
     --letra1: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,10 +13,9 @@
     padding: 0;
 }
 
-body{
-    background-color: darkgrey;
-    min-height: 100vh;
+html, body{
     font-family: var(--letra1);
+    background-color: darkgray;
 }
 
 header{
@@ -41,14 +42,61 @@ header p{
 header a{
     text-decoration: none;
     color: inherit;
+    font-weight: bolder;
 }
 
+header a:hover{
+    text-decoration: underline;
+}
 
 main{
     background-color: white;
     height: 100vh;
 }
 
-main p{ 
-    font-size: ;
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 400px;
+
 }
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-color: rgb(102, 102, 102);
+}
+
+
+
+
+
+
+
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
